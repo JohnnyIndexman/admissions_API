@@ -4,19 +4,19 @@ A production-style REST API for managing applicant admissions, including multi-s
 
 # Live API
 ## Base URL: 
-``` https://admissions-api-telt.onrender.com/api/applications ```
+ https://admissions-api-telt.onrender.com/api/applications 
 
 Use this endpoint to interact with the live deployment (CRUD, status transitions, reviewer notes, pagination, sorting, etc.).
 
 ## Project Presentation
 
 A brief slide deck summarizing architecture, features, and design decisions
-``` https://docs.google.com/presentation/d/1Q8dMh2VksbGYExQYfLnfW1l9HrIeXJp4/edit?usp=sharing&ouid=112357463381889706000&rtpof=true&sd=true ```
+https://docs.google.com/presentation/d/1Q8dMh2VksbGYExQYfLnfW1l9HrIeXJp4/edit?usp=sharing&ouid=112357463381889706000&rtpof=true&sd=true 
 
 ## Full API Documentation (PDF)
 
 A complete project documentation PDF covering features, workflow, validation, database design, migrations, and testing:
-```https://drive.google.com/file/d/1rLCcnBNuXFeWpZ91vGh0cImeF9DChabm/view?usp=sharing ```
+https://drive.google.com/file/d/1rLCcnBNuXFeWpZ91vGh0cImeF9DChabm/view?usp=sharing 
 
 ## Features
 
