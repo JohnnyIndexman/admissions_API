@@ -1,0 +1,57 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/admissions_db
+#    username: postgres
+#    password: nnamdi
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    show-sql: false
+#    properties:
+#      hibernate:
+#        format_sql: false
+#
+#flyway:
+#  enabled: true
+#  locations: classpath:db/migration
+#
+#server:
+#  port: 8080
+#
+#springdoc:
+#  api-docs:
+#    path: /v3/api-docs
+#  swagger-ui:
+#    path: /swagger-ui.html
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/admission_db
+    username: postgres
+    password: nnamdi
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      open-in-view: false  
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui/index.html
+    url: /v3/api-docs
+
+server:
+  port: 8081
+
